@@ -1,0 +1,93 @@
+body {
+    background-color: #EEE;
+    font: 14px Arial, sans-serif;
+    padding: 40px;
+}
+
+.plogin {
+    background-color: #FFF;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    border: 1px solid #CCC;
+    width: 260px;
+}
+
+.plogin h3 {
+    font: bold 32px Arial;
+    color: #404040;
+    padding: 0 0 10px;
+    margin: 0;
+}
+
+.plogin fieldset {
+    padding: 10px 0;
+}
+
+.plogin label {
+    padding: 0 0 10px;
+    display: block;
+}
+
+.plogin input[type=text],
+.plogin input[type=password] {
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px;
+    font: 16px Arial;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .1);
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+.plogin input[type=text]:focus,
+.plogin input[type=password]:focus {
+    box-shadow: none;
+    border-color: #FA2;
+}
+
+.plogin input[type=submit] {
+    box-shadow: inset 0 1px 0 0 #fff6af;
+    background: #ffec64;
+    background: -moz-linear-gradient(top,  #ffec64 0%, #ffab23 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffec64), color-stop(100%,#ffab23));
+    background: -webkit-linear-gradient(top,  #ffec64 0%,#ffab23 100%);
+    background: -o-linear-gradient(top,  #ffec64 0%,#ffab23 100%);
+    background: -ms-linear-gradient(top,  #ffec64 0%,#ffab23 100%);
+    background: linear-gradient(to bottom,  #ffec64 0%,#ffab23 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0 );
+    border-radius: 6px;
+    border: 1px solid #FA2;
+    display: inline-block;
+    color: #333;
+    font: bold 15px Arial;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ffee66;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.plogin input[type=submit]:hover {
+    background-color: #ffab23;
+    background: -moz-linear-gradient(top,  #ffab23 0%, #ffec64 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffab23), color-stop(100%,#ffec64));
+    background: -webkit-linear-gradient(top,  #ffab23 0%,#ffec64 100%);
+    background: -o-linear-gradient(top,  #ffab23 0%,#ffec64 100%);
+    background: -ms-linear-gradient(top,  #ffab23 0%,#ffec64 100%);
+    background: linear-gradient(to bottom,  #ffab23 0%,#ffec64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0 );
+}
+
+.plogin input[type=submit]:active {
+    position: relative;
+    top: 1px;
+}
+
+#errormsg {
+    color: red;
+    padding: 2px 0;
+}
